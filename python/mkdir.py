@@ -2,5 +2,5 @@
 
 import os
 
-target = 'test'
-os.mkdir(f'{os.curdir}/{target}')
+def mkdir(target):
+  return os.mkdir(f'{os.curdir}/{target}')
