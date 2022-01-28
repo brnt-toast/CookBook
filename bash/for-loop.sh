@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# list/array of binarys 
+# list/array of binaries 
 X= (tmux bash vim)
 
 
