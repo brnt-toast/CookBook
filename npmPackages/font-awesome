@@ -1,0 +1,5 @@
+npm install --save @fortawesome/fontawesome-free
+--
+import css in head(pug syntax):
+link(rel='stylesheet' href='node_modules/@fortawesome/fontawesome-free/css/all.css
+
