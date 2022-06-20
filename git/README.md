@@ -4,6 +4,9 @@
 ```sh
 	git reset --hard HEAD~^
 ```
+```sh
+	git rest --hard
+```
 ### Nth Number of Commits
 ```sh
 	git reset --hard HEAD~2
