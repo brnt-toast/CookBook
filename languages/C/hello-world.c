@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>	// C Standard I/O functions
+#include <stdlib.h>	// general utility functions
 
 int main(void){
-	puts("Hello, World!");
-	return EXIT_SUCCESS;
+	puts("Hello, World!"); // <stdio.h> 
+	return EXIT_SUCCESS;	// <stdlib.h> 
 }
