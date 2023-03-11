@@ -3,7 +3,7 @@ import {Routes, Route, Link} from 'react-router-dom';
 
 import Home from './pages/Home'
 
-export default App(){
+export default function App(){
 	return (
 		<>
 			<h1> Hello from App.js </h1>
@@ -13,7 +13,7 @@ export default App(){
 
 			<Routes>
 				<Route path="/" element={<Home />} />	
-			<Routes>
+			</Routes>
 		</>
 	)
 }
