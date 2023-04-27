@@ -1,0 +1,16 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+
+Vagrant.configure("2") do |config|
+  # "echo Hello" will run for every machine
+  config.vm.provision "shell", inline: "echo Hello"
+
+  config.vm.define "node_1" do |web|
+    web.vm.box = "ubuntu/trusty64"
+  end
+
+  config.vm.define "node_2" do |db|
+    db.vm.box = "ubuntu/trusty64"
+  end
+end
