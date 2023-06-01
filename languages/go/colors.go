@@ -1,3 +1,4 @@
+//colors.go
 package main 
 
 import "github.com/fatith/color"
