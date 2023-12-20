@@ -1,9 +1,7 @@
-languages/javascript/react/node_modules
-languages/javascript/react/.parcel-cache
-languages/javascript/react/dist
-*/*/.DS_Store
-*/.DS_Store
-.DS_Store
-*/C/a.out
-
 __pycache__
+node_modules
+.parcel-cache
+dist/
+
+.DS_Store
+a.out
