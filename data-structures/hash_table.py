@@ -48,3 +48,4 @@ print("Search 'banana':", hash_table.search("banana"))
 hash_table.delete("orange")
 
 print("Hash Table:", hash_table)
+
