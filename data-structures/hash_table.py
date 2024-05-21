@@ -33,7 +33,7 @@ class HashTable:
         return None
 
     def __str__(self):
-        retun str(self.table)
+        return str(self.table)
 
 
 hash_table = HashTable()
