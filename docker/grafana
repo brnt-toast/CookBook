@@ -1,0 +1,6 @@
+docker run -d \
+  --name grafana \
+  --publish 3000:3000 \
+  --volume /srv/grafana:/var/lib/grafana \
+  grafana/grafana
+
