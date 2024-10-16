@@ -1,0 +1,7 @@
+docker run -d \
+  --name nextcloud \
+  --publish 8080:80 \
+  --volume /srv/nextcloud/data:/var/www/html \
+  --restart always \
+  nextcloud
+
