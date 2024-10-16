@@ -1,0 +1,6 @@
+docker run -d \
+  --name prometheus \
+  --publish 9090:9090 \
+  --volume /srv/prometheus:/prometheus \
+  prom/prometheus
+
