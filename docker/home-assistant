@@ -1,0 +1,8 @@
+docker run -d \
+  --name home-assistant \
+  --privileged \
+  --restart always \
+  --network host \
+  --volume /srv/homeassistant:/config \
+  homeassistant/home-assistant:latest
+
