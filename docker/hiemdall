@@ -1,0 +1,7 @@
+docker run -d \
+  --name heimdall \
+  --publish 8000:80 \
+  --volume /srv/heimdall:/config \
+  --restart always \
+  linuxserver/heimdall
+
