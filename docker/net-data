@@ -1,0 +1,8 @@
+docker run -d \
+  --name netdata \
+  --cap-add SYS_PTRACE \
+  --security-opt apparmor=unconfined \
+  --publish 19999:19999 \
+  --restart always \
+  netdata/netdata
+
