@@ -1,0 +1,6 @@
+docker run -d \
+  --name nodered \
+  --publish 1880:1880 \
+  --restart always \
+  nodered/node-red
+
