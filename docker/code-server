@@ -1,0 +1,7 @@
+docker run -d \
+  --name code-server \
+  --publish 8081:8080 \
+  --restart always \
+  -v /srv/code-server:/home/coder/project \
+  codercom/code-server:latest
+
